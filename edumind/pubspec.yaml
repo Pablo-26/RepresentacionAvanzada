@@ -1,0 +1,27 @@
+name: edumind
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.7.2
+  http: ^1.4.0
+  url_launcher: ^6.3.2
+  graphview: ^1.2.0
+  flutter_graph_view: ^1.2.0
+  force_directed_graph: 0.1.1
+  font_awesome_flutter: ^10.8.0
+  hugeicons: ^0.0.11
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true

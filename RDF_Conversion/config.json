@@ -1,0 +1,177 @@
+{
+  "namespaces": {
+    "schema": "http://schema.org/",
+    "bibo": "http://purl.org/ontology/bibo/",
+    "uti": "http://uti.edu.ec/resource/"
+  },
+  "default_mappings": {
+    "author_full_names_col": "Author full names",
+    "author_ids_col": "Author(s) ID",
+    "source_title_col": "Source title",
+    "volume_col": "Volume",
+    "issue_col": "Issue"
+  },
+  "column_mappings": [
+    {
+      "csv_column": "Authors",
+      "rdf_property": "schema:author",
+      "property_type": "Literal",
+      "is_list": true,
+      "delimiter": ";"
+    },
+    {
+      "csv_column": "Author full names",
+      "rdf_property": "schema:author",
+      "property_type": "Literal",
+      "is_list": true,
+      "delimiter": ";"
+    },
+    {
+      "csv_column": "Author(s) ID",
+      "rdf_property": "schema:identifier",
+      "property_type": "Literal",
+      "is_list": true,
+      "delimiter": ";"
+    },
+    {
+      "csv_column": "Title",
+      "rdf_property": "schema:name",
+      "property_type": "Literal"
+    },
+    {
+      "csv_column": "Year",
+      "rdf_property": "schema:datePublished",
+      "property_type": "Literal"
+    },
+    {
+      "csv_column": "Source title",
+      "rdf_property": "schema:isPartOf",
+      "property_type": "Literal"
+    },
+    {
+      "csv_column": "Volume",
+      "rdf_property": "bibo:volume",
+      "property_type": "Literal"
+    },
+    {
+      "csv_column": "Issue",
+      "rdf_property": "bibo:issue",
+      "property_type": "Literal"
+    },
+    {
+      "csv_column": "Art. No.",
+      "rdf_property": "bibo:articleNumber",
+      "property_type": "Literal"
+    },
+    {
+      "csv_column": "Page start",
+      "rdf_property": "bibo:pageStart",
+      "property_type": "Literal"
+    },
+    {
+      "csv_column": "Page end",
+      "rdf_property": "bibo:pageEnd",
+      "property_type": "Literal"
+    },
+    {
+      "csv_column": "Page count",
+      "rdf_property": "bibo:numPages",
+      "property_type": "Literal"
+    },
+    {
+      "csv_column": "Cited by",
+      "rdf_property": "schema:citationCount",
+      "property_type": "Literal"
+    },
+    {
+      "csv_column": "DOI",
+      "rdf_property": "bibo:doi",
+      "property_type": "Literal"
+    },
+    {
+      "csv_column": "Link",
+      "rdf_property": "schema:url",
+      "property_type": "Literal"
+    },
+    {
+      "csv_column": "Abstract",
+      "rdf_property": "schema:abstract",
+      "property_type": "Literal"
+    },
+    {
+      "csv_column": "Author Keywords",
+      "rdf_property": "schema:keywords",
+      "property_type": "Literal",
+      "is_list": true,
+      "delimiter": ";"
+    },
+    {
+      "csv_column": "Index Keywords",
+      "rdf_property": "schema:keywords",
+      "property_type": "Literal",
+      "is_list": true,
+      "delimiter": ";"
+    },
+    {
+      "csv_column": "Funding Details",
+      "rdf_property": "schema:funder",
+      "property_type": "Literal"
+    },
+    {
+      "csv_column": "Funding Texts",
+      "rdf_property": "schema:funding",
+      "property_type": "Literal"
+    },
+    {
+      "csv_column": "Document Type",
+      "rdf_property": "bibo:documentType",
+      "property_type": "Literal"
+    },
+    {
+      "csv_column": "Publication Stage",
+      "rdf_property": "bibo:status",
+      "property_type": "Literal"
+    },
+    {
+      "csv_column": "Open Access",
+      "rdf_property": "schema:isAccessibleForFree",
+      "property_type": "Literal"
+    },
+    {
+      "csv_column": "Source",
+      "rdf_property": "schema:publisher",
+      "property_type": "Literal"
+    },
+    {
+      "csv_column": "EID",
+      "rdf_property": "schema:identifier",
+      "property_type": "Literal"
+    }
+  ],
+  "available_properties": [
+    "schema:name",
+    "schema:abstract",
+    "schema:datePublished",
+    "schema:keywords",
+    "schema:identifier",
+    "bibo:doi",
+    "bibo:pageStart",
+    "bibo:pageEnd",
+    "bibo:volume",
+    "bibo:issue",
+    "schema:citationCount",
+    "schema:url",
+    "bibo:articleNumber",
+    "bibo:documentType",
+    "schema:author",
+    "schema:isPartOf",
+    "bibo:numPages",
+    "schema:funder",
+    "schema:funding",
+    "bibo:status",
+    "schema:isAccessibleForFree",
+    "schema:publisher"
+  ]
+}
+
+
